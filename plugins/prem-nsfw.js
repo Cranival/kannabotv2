@@ -34,8 +34,8 @@ let resl = 'https://api.lolhuman.xyz/api/random2/'
 let apil = '?apikey=e7c7d62831fc4419850e4aeb'
 
 //> Xteam
-let xres = 'https://api.lolhuman.xyz/api/random2'
-let xapi = '?apikey=e7c7d62831fc4419850e4aeb'
+let xres = 'https://api.xteam.xyz'
+let xapi = '?apikey=be94e9adc6c16fe9'
 //--------------------------------
 
 // ••••••••••••••••• OPTIONS •••••••••••
