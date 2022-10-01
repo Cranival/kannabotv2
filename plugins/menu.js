@@ -220,9 +220,9 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	rows: [
 	    {title: `🚦 ${pmenus} PLEASE READ THIS RULES
 
-® ${pmenus} DILARANG SPAM BOT | *JIKA BELUM BERDONASI*
-® ${pmenus} GUNAKAN BOT SEBAIK MUNGKIN | *PASTI FAHAMLAH*
-® ${pmenus} OWNER ADALAH DEWA`, rowId: ".donasi", description: `${namebot}`},
+® ${pmenus} DILARANG SPAM BOT | *Terkecuali kalo lu mau*
+® ${pmenus} GUNAKAN BOT SEBAIK MUNGKIN | *Yang tau-tau aja*
+® ${pmenus} OWNER ADALAH MANUSIA`, rowId: ".donasi", description: `${namebot}`},
 	    //{title: ` ${pmenus} GUNAKAN BOT SEBAIK MUNGKIN`, description: "Pasti Fahamlah"},
 	    //{title: `🚥 ${pmenus} OWNER ADALAH DEWA`, description: `${namebot}`},
 	]
