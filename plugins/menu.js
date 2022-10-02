@@ -215,23 +215,11 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
     }
     let mpt = clockString(_mpt)
       const sections = [
-   {
-    title: `${htki} RULES ${htka}`,
-	rows: [
-	    {title: `🚦 ${pmenus} PLEASE READ THIS RULES
-
-® ${pmenus} DILARANG SPAM BOT | *Terkecuali kalo lu mau*
-® ${pmenus} GUNAKAN BOT SEBAIK MUNGKIN | *Yang tau-tau aja*
-® ${pmenus} OWNER ADALAH MANUSIA`, rowId: ".donasi", description: `${namebot}`},
-	    //{title: ` ${pmenus} GUNAKAN BOT SEBAIK MUNGKIN`, description: "Pasti Fahamlah"},
-	    //{title: `🚥 ${pmenus} OWNER ADALAH DEWA`, description: `${namebot}`},
-	]
-    },{
+     {
 	title: `${htki} MAIN ${htka}`,
 	rows: [
 	    {title: `⚡ ${pmenus} SPEED BOT`, rowId: ".ping", description: "Menampilkan kecepatan respon BOT"},
 	    {title: `💌 ${pmenus} OWNER BOT`, rowId: ".owner", description: "Menampilkan List owner BOT"},
-	    {title: `📔 ${pmenus} SCRIPT BOT`, rowId: ".sc", description: `Source Code ${namebot}`},
 	]
     },{
 	title: `${htki} SUPPORT ${htka}`,
