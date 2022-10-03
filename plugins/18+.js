@@ -4,23 +4,7 @@ let handler  = async (m, { conn }) => {
 	
 	await m.reply('[!] Please Wait, Tunggu Sebentar')
   conn.reply(m.chat,`${pickRandom(global.bokep)}`, m)
-}
-handler.help = ['filebokep']
-handler.tags = ['internet']
-handler.command = /^(filebokep)$/i
-handler.owner = false
-handler.mods = false
-handler.premium = true
-handler.group = false
-handler.private = false
-
-handler.admin = false
-handler.botAdmin = false
-
-handler.fail = null
-handler.limit = 1
-
-export default handler
+]
 
 function pickRandom(list) {
   return list[Math.floor(list.length * Math.random())]
@@ -54,3 +38,20 @@ global.bokep = [
 'Nama : Tifanny\nFoto : 117\nVideo : 4\nSize : 30 MB\nDurasi : - Menit\nKualitas : HD\nRate : ⭐⭐⭐⭐\n\nDownload Link\nDownload : https://drive.google.com/file/d/1lrO9YJ1-MJtHavMpN2kG3nmJSReJtzE6/view\nPassword file : AA18+#46',
 'Nama : Vierannii\nFoto : 95\nVideo : -\nSize : 12 MB\nDurasi : - Menit\nKualitas : HD\nRate : ⭐⭐⭐⭐\n\nDownload Link\nDownload : https://drive.google.com/file/d/1lrOIZFT1n5XWqkX5uVq7xmmSpKjX70Mf/view\nPassword file : AA18+#47',
 ]
+	
+handler.help = ['filebokep']
+handler.tags = ['internet']
+handler.command = /^(filebokep)$/i
+handler.owner = true
+handler.mods = false
+handler.premium = true
+handler.group = false
+handler.private = false
+
+handler.admin = false
+handler.botAdmin = false
+
+handler.fail = null
+handler.limit = 1
+
+export default handler
