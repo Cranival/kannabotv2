@@ -95,20 +95,23 @@ global.APIs = { // API Prefix
   botstyle: 'https://botstyle-api.herokuapp.com',
   adiisus: 'https://adiixyzapi.herokuapp.com',
   LeysCoder: 'https://leyscoders-api.herokuapp.com',
+  violetics : 'https://violetics.pw',
   kanx: 'https://kannxapi.herokuapp.com/'
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
   'https://api.xteam.xyz': 'be94e9adc6c16fe9',
   'https://anabotofc.herokuapp.com/': 'AnaBot',
-  'https://api.lolhuman.xyz': 'e7c7d62831fc4419850e4aeb',
+  'https://api.lolhuman.xyz': 'a3c5e022df9e2c15ef844b34',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://api.zeks.me': 'apivinz',
   'https://pencarikode.xyz': 'pais',
   'https://neoxr-api.herokuapp.com': 'yntkts',
   'https://server-api-rey.herokuapp.com': 'apirey',
+  'https://melcanz.com': 'melcantik',
   'https://botstyle-api.herokuapp.com': 'bisHxKHm',
   'https://hardianto.xyz': 'hardianto',
+  'https://violetics.pw': 'beta',
   'https://leyscoders-api.herokuapp.com': 'dappakntlll'
 }
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
