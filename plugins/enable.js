@@ -46,7 +46,7 @@ const listMessage = {
       if (!m.isGroup) {
         if (!isOwner) {
           global.dfail('group', m, conn)
-          throw false
+          throw true
         }
       } else if (!isAdmin) {
         global.dfail('admin', m, conn)
@@ -58,7 +58,7 @@ const listMessage = {
        if (!m.isGroup) {
          if (!isOwner) {
            global.dfail('group', m, conn)
-           throw false
+           throw true
          }
        } else if (!isAdmin) {
          global.dfail('admin', m, conn)
