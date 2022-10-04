@@ -42,9 +42,9 @@ global.bokep = [
 handler.help = ['filebokep']
 handler.tags = ['internet']
 handler.command = /^(filebokep)$/i
-handler.owner = true
 handler.mods = false
 handler.premium = true
+handler.owner = true
 handler.group = false
 handler.private = false
 
