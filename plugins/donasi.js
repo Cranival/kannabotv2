@@ -2,7 +2,6 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 let text = `
 ┌─「 Donasi • Pulsa 」
 │ • *Axis:* [${global.ppulsa}]
-│ • *Axis:* [${global.ppulsa2}]
 ❏────
 
 ┌─「 Donasi • Non Pulsa 」
@@ -10,10 +9,8 @@ let text = `
 ❏────
 `
 const templateButtons = [
-    {index: 1, urlButton: {displayText: '📷 Instagram', url: sig}},
-    {index: 2, urlButton: {displayText: '🌎 Official Group', url: sgc}},
-    {index: 3, quickReplyButton: {displayText: 'Menu', id: '.menu'}},
-    {index: 4, quickReplyButton: {displayText: 'Owner', id: '.owner'}},
+    {index: 1, quickReplyButton: {displayText: 'Menu', id: '.menu'}},
+    {index: 2, quickReplyButton: {displayText: 'Owner', id: '.owner'}},
 ]
 let tm = {
 text: text,
