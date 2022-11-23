@@ -32,17 +32,6 @@ const defaultMenu = {
 %m2 *Time:* %wib
 %m3
 
-%m1 *I N F O*
-%m2 *Bot Name:* %me
-%m2 *Mode:* %mode
-%m2 *Platform:* %platform
-%m2 *Type:* Node.Js
-%m2 *Baileys:* Multi Device
-%m2 *Prefix:* [ *%_p* ]
-%m2 *Uptime:* %muptime
-%m2 *Database:* %rtotalreg dari %totalreg
-%m3
-
 %m1 *I N F O  C M D* 
 %m4 *Ⓟ* = Premium
 %m4 *Ⓛ* = Limit
@@ -93,9 +82,6 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
   }
   if (teks == 'anime') tags = {
     'anime': 'Anime'
-  }
-  if (teks == 'nsfw') tags = {
-    'nsfw': 'Nsfw'
   }
   if (teks == 'rpg') tags = {
     'rpg': 'Rpg'
@@ -175,9 +161,6 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
     'host': 'Host',
     'advanced': 'Advanced'
   }
- if (teks == 'nsfw') tags = {
-    'nsfw': 'Nsfw'
-  }
   if (teks == 'nocategory') tags = {
     '': 'No Category'
   }
@@ -216,15 +199,9 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	rows: [
 	    {title: `⚡ ${pmenus} SPEED BOT`, rowId: ".ping", description: "Menampilkan kecepatan respon BOT"},
 	    {title: `💌 ${pmenus} OWNER BOT`, rowId: ".owner", description: "Menampilkan List owner BOT"},
-	]
-    },{
-	title: `${htki} SUPPORT ${htka}`,
-	rows: [
-	    {title: `🔖 ${pmenus} SEWA`, rowId: ".sewa", description: "Menampilkan list harga sewa BOT"},
-	    {title: `🌟 ${pmenus} BUY PREMIUM`, rowId: ".premium", description: "Menampilkan list harga premium"},
 	    {title: `💹 ${pmenus} DONASI`, rowId: ".donasi", description: 'Support BOT agar lebih fast respon'},
 	]
-	},{
+    },{
 	title: `${htki} MENU ${htka}`,
 	rows: [
 	    {title: `🌱 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
@@ -234,7 +211,6 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	{title: `🐚 ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Tanyakan pada ketua club"},
 	{title: `📑 ${pmenus} Quotes`, rowId: ".? quotes", description: "Random Inspirasi"},
 	{title: `⛩️ ${pmenus} Anime`, rowId: ".? anime", description: "Kamu wibu ya bang?"},
-	{title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, dasar sagne"},
 	{title: `🌟 ${pmenus} Premium`, rowId: ".? premium", description: "Only premium Users"},
 	{title: `🎭 ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Bicara dengan orang tidak dikenal"},
 	{title: `📖 ${pmenus} Al-Quran`, rowId: ".? quran", description: "Tobat yuk kak"},
@@ -481,30 +457,12 @@ const listMessage = {
             fileLength: fsizedoc,
             pageCount: fpagedoc,
             caption: text,
-            footer: titlebot + '\n⚡ Supported By FR Team',
+            footer: titlebot + '\n⚡ Supported By Family',
             templateButtons: [
-                {
-                    urlButton: {
-                        displayText: `${namebot}`,
-                        url: 'https://kannxapi.herokuapp.com/'
-                    }
-                },
-                {
-                    urlButton: {
-                        displayText: 'Group Official',
-                        url: sgc
-                    }
-                },
                 {
                     quickReplyButton: {
                         displayText: 'Owner',
                         id: '.owner'
-                    }
-                },
-                {
-                    quickReplyButton: {
-                        displayText: 'Speed',
-                        id: '.ping'
                     }
                 },
                 {
