@@ -52,14 +52,12 @@ global.snh = 'https://nhentai.net/g/365296/'
 
 /*============== PAYMENT ==============*/
 global.pdana = '083893144467'
-global.povo = '085712420674'
 global.pgopay = '083893144467'
 global.ppulsa = '083893144467'
-global.ppulsa2 = '083842969296'
 global.psaweria = '-'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6283842969296'
+global.nomorbot = '6283893144467'
 global.nomorown = '6283893144467'
 global.namebot = 'Kanna BOT'
 global.nameown = 'Khanip'
