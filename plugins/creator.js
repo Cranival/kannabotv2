@@ -44,14 +44,11 @@ const sections = [
 	title: `${htjava} OWNER –––––––––·•`,
 	rows: [
 	    {title: "📱 • Nomor", rowId: ".owner nomor"},
-	{title: "🎨 • Biodata", rowId: ".owner bio"},
 	]
     },{
 	title: `${htjava} SUPPORT ME –––––––·•`,
 	rows: [
 	    {title: "💹 • Donasi", rowId: ".owner nomor"},
-	{title: "🔖 • Sewa", rowId: ".sewa"},
-	{title: "🌟 • Buy Premium", rowId: ".premium"},
 	]
   },
 ]
